@@ -1,0 +1,9 @@
+body {
+  font-family: Ubuntu, sans-serif;
+  background-image: url("https://media.macphun.com/img/uploads/customer/blog/1554296795/15542980765ca4b4dcdfa463.33058128.jpg?q=85&w=2520");
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center center;
+  color: white;
+  display: flex;
+}
