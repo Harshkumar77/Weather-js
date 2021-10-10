@@ -4,9 +4,9 @@ Monitor realtime weather of cities.
 <br>
 Automatically detects your location to show forecast or you can search the weather of a specific city.
 
-## [DEPLOYED HERE]()
+## [DEPLOYED HERE](https://weather-realtime.netlify.app/)
 
-url -
+url - https://weather-realtime.netlify.app/
 
 ## Gif
 
