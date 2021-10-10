@@ -42,14 +42,16 @@ async function fetchAndUpdate(state) {
       var tt = new Date();
       // console.log(tt.slice(0, 21));
       // dateElement.textContent = tt.slice(0, 21);
-      dateElement.textContent = "As of " + tt.toLocaleTimeString().slice(0, 5);
+      dateElement.textContent = "As of " + tt.toLocaleTimeString();
       updateIconAndBkg(data.weather[0].id, data.weather[0].icon);
-      sunrise.textContent = new Date(1000 * data.sys.sunrise)
-        .toLocaleTimeString()
-        .slice(0, 5);
-      sunset.textContent = new Date(1000 * data.sys.sunset)
-        .toLocaleTimeString()
-        .slice(0, 5);
+      sunrise.textContent = new Date(
+        1000 * data.sys.sunrise
+      ).toLocaleTimeString();
+      sunset.textContent = new Date(
+        1000 * data.sys.sunset
+      ).toLocaleTimeString();
+      temp.click();
+      temp.focus();
     });
 }
 
