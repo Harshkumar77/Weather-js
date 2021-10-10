@@ -10,6 +10,8 @@ url -
 
 ## Gif
 
+![vid](vid.gif)
+
 ## API used
 
 - [openweathermap](https://openweathermap.org/api)
