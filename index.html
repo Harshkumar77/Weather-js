@@ -15,20 +15,37 @@
     />
   </head>
   <body>
-    <h1 class="temp">21 °</h1>
-    <h2 class="State">Delhi</h2>
-    <h3 class="time">08 : 30</h3>
-    <h3 class="date">Sunday , 6 october</h3>
-    <h3 class="fas fa-cloud-rain"></h3>
-    <h3>rainy</h3>
-    <input
-      class="search-bar"
-      type="text"
-      placeholder="Enter name of your State"
-    />
-    <button class="search-icon">
-      <i class="fa fa-search" aria-hidden="true"></i>
-    </button>
+    <div class="srch">
+      <input
+        class="search-bar"
+        type="text"
+        placeholder="Enter name of your city"
+      />
+      <button class="search-icon fa fa-search" />
+    </div>
+    <div class="info">
+      <h3 class="date"></h3>
+      <div class="con">
+        <div class="lft">
+          <h1 class="temp"></h1>
+          <h3 class="cond"></h3>
+        </div>
+        <img class="iconw" alt="" />
+      </div>
+    </div>
+    <div class="det">
+      <h3 class="State">Delhi</h3>
+      <div class="det-m">
+        <div>
+          <img src="images/weather-icons/sunrise.png" height="120px" alt="" />
+          <h3 class="sunrise">08:30</h3>
+        </div>
+        <div>
+          <img src="images/weather-icons/sunset.png" height="120px" alt="" />
+          <h3 class="sunset">08:30</h3>
+        </div>
+      </div>
+    </div>
     <script
       src="https://kit.fontawesome.com/772564553b.js"
       crossorigin="anonymous"

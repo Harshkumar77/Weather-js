@@ -1,9 +1,124 @@
+html {
+  height: 100%;
+}
 body {
+  padding-left: 5%;
+  padding-right: 5%;
   font-family: Ubuntu, sans-serif;
-  background-image: url("https://media.macphun.com/img/uploads/customer/blog/1554296795/15542980765ca4b4dcdfa463.33058128.jpg?q=85&w=2520");
+  /* background-image: url("https://media.macphun.com/img/uploads/customer/blog/1554296795/15542980765ca4b4dcdfa463.33058128.jpg?q=85&w=2520"); */
+  background: linear-gradient(#6e3f98, #c89e95);
   background-repeat: no-repeat;
   background-size: auto;
   background-position: center center;
   color: white;
+}
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 2.5rem;
+}
+h3 {
+  font-size: 1.4rem;
+}
+.iconw {
+  height: 7rem;
+}
+
+.srch {
+  padding: 8px 0;
+  width: 100%;
+  margin: 16px auto;
   display: flex;
+}
+.srch :nth-child(1) {
+  flex-grow: 1;
+  background-color: unset;
+  outline: unset;
+  border: black 1px solid;
+  color: white;
+  padding: 8px;
+  border-radius: 4px 0px 0px 4px;
+}
+.srch :nth-child(1)::placeholder {
+  color: white;
+}
+.srch :nth-child(2) {
+  border-radius: 0px 4px 4px 0px;
+  border: 1px black solid;
+  background-color: black;
+  color: wheat;
+}
+.info {
+  background-color: rgba(225, 225, 225, 0.2);
+  padding: 16px;
+  border-radius: 16px;
+}
+
+.det {
+  background-color: white;
+  border-radius: 16px;
+  color: black;
+  margin: 16px 0;
+  padding: 16px;
+}
+.det-m {
+  display: flex;
+  text-align: center;
+}
+.det-m > * {
+  flex-grow: 1;
+}
+
+.con {
+  display: flex;
+}
+.lft {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+.temp {
+  flex-grow: 1;
+}
+.con :nth-child(2) {
+  /* flex-grow: 1; */
+  /* flex-basis: 100%; */
+}
+.search-icon {
+  padding: 8px;
+}
+
+/* Desktop  */
+@media screen and (min-width: 600px) {
+  body {
+    padding: 0 15%;
+  }
+  .srch {
+    padding: 16px 0;
+  }
+  .srch :nth-child(1) {
+    padding: 16px;
+    font-size: large;
+  }
+  .search-icon {
+    font-size: large;
+    padding: 16px;
+  }
+  .info,
+  .det {
+    padding: 32px;
+  }
+  .det {
+    margin: 32px 0;
+  }
+  .iconw {
+    padding-right: 64px;
+  }
 }
