@@ -6,7 +6,7 @@ Automatically detects your location to show forecast or you can search the weath
 
 ## [DEPLOYED HERE](https://weather-js.pages.dev/)
 
-url - https://weather-realtime.netlify.app/
+url - https://weather-js.pages.dev/
 
 ## Gif
 
